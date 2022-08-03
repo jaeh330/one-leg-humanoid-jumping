@@ -1,0 +1,22 @@
+/snap/clion/203/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" -S /home/jaehyeong/raisimLib/quadruped-robot-jumping -B /home/jaehyeong/raisimLib/quadruped-robot-jumping/cmake-build-debug
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:8 (find_package):
+  Could not find a package configuration file provided by "raisim" with any
+  of the following names:
+
+    raisimConfig.cmake
+    raisim-config.cmake
+
+  Add the installation prefix of "raisim" to CMAKE_PREFIX_PATH or set
+  "raisim_DIR" to a directory containing one of the above files.  If "raisim"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/jaehyeong/raisimLib/quadruped-robot-jumping/cmake-build-debug/CMakeFiles/CMakeOutput.log".
