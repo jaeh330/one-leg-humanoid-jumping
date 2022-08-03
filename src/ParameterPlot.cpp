@@ -23,7 +23,6 @@
      matplotlibcpp::xlabel("time [s]");
      matplotlibcpp::ylabel("[N]");
      matplotlibcpp::legend();
-     std::cout << "hjello" << std::endl;
 
 }
 void ParameterPlot::velocityPlot(int figureNumber, std::vector<double> simulationTime, std::vector<double> velocity1, std::vector<double> velocity2, std::vector<double> velocity3, Eigen::VectorXd desiredVelocity){
